@@ -1,0 +1,7 @@
+{
+  "name": "BillSplit AI",
+  "description": "Split bills easily by capturing a photo. Uses AI to extract items and allows assigning them to group members.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
