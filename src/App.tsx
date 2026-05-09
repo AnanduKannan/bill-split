@@ -5,6 +5,7 @@
 
 import { useState, useEffect, useMemo, Dispatch, SetStateAction } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import { Analytics } from "@vercel/analytics/react";
 import {
   Users,
   Receipt,
@@ -869,6 +870,7 @@ Do not add any other text, do not add colons even if it is in the item name. Enc
         </AnimatePresence>
 
       </div>
+      <Analytics />
     </div>
   );
 }
